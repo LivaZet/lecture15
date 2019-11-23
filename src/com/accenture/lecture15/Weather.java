@@ -119,14 +119,8 @@ public class Weather {
 
 	public void applyWarmCycloneEffect() {
 		int i;
-		int increaseDayTemperature;
 		for (i = 0; i < daysWeather.length; i++) {
-			increaseDayTemperature = i;
-			
-			System.out.println("Weather forecast  in " + country + " for next days " + Arrays.toString(getDaysWeather()));
+			daysWeather[i] = daysWeather[i] + 1;		
 		}
-		
 	}
-	
-	
 }

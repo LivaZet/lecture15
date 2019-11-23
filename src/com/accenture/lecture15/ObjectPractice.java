@@ -82,8 +82,8 @@ public class ObjectPractice {
 		// by one degree
 		// create a public void applyWarmCycloneEffect()
 		// Output: "Weather forecast  in 'Latvia' for next days '-1, 1, 6, 3, 7, 0, 1'"
-//		 latvia.applyWarmCycloneEffect();
-//		 System.out.println(latvia);
+		 latvia.applyWarmCycloneEffect();
+		 System.out.println(latvia);
 
 	}
 
