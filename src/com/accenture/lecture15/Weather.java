@@ -5,8 +5,9 @@ import java.util.Arrays;
 public class Weather {
 	private final String country;
 	private int[] daysWeather;
-//	private static String[] daysOfWeek = { "Monday", "Tuesday", "Wednesday",
-//			"Thursday", "Friday", "Saturday", "Sunday" };
+
+	// private static String[] daysOfWeek = { "Monday", "Tuesday", "Wednesday",
+	// "Thursday", "Friday", "Saturday", "Sunday" };
 
 	public String getCountry() {
 		return this.country;
@@ -39,15 +40,15 @@ public class Weather {
 		}
 		return average;
 	}
-	
+
 	public String getHottestDayName() {
 		return getDayName(getHottestDay());
 	}
-	
+
 	public int getColdestTemperature() {
 		return this.daysWeather[getColdestDay()];
 	}
-	
+
 	public String getColdestDayName() {
 		return getDayName(getColdestDay());
 	}
@@ -67,7 +68,7 @@ public class Weather {
 		}
 		return index;
 	}
-	
+
 	private int getColdestDay() {
 		int min = daysWeather[0];
 		int index = 0;
@@ -79,15 +80,15 @@ public class Weather {
 		}
 		return index;
 	}
-	
-	private String getDayName(int index){
-		String dayName; 
+
+	private String getDayName(int index) {
+		String dayName;
 		switch (index + 1) {
 		case 1:
 			dayName = "Monday";
 			break;
 		case 2:
-			dayName =  "Tuesday";
+			dayName = "Tuesday";
 			break;
 		case 3:
 			dayName = "Wednesday";
@@ -109,18 +110,21 @@ public class Weather {
 		}
 		return dayName;
 	}
-	
-	public void printAdvancedInformation(){
-		System.out.println("In " + country + " during next 7 day will be following weather " + Arrays.toString(getDaysWeather()) + "\n" + 
-				"the highest temperature will be on " + getHottestDayName() + " " + getHottestTemperature() + " degrees;" + "\n" +
- "the lowest temperature will be on " + getColdestDayName()
+
+	public void printAdvancedInformation() {
+		System.out.println("In " + country
+				+ " during next 7 day will be following weather "
+				+ Arrays.toString(getDaysWeather()) + "\n"
+				+ "the highest temperature will be on " + getHottestDayName()
+				+ " " + getHottestTemperature() + " degrees;" + "\n"
+				+ "the lowest temperature will be on " + getColdestDayName()
 				+ " " + getColdestTemperature() + " degrees.");
 	}
 
 	public void applyWarmCycloneEffect() {
 		int i;
 		for (i = 0; i < daysWeather.length; i++) {
-			daysWeather[i] = daysWeather[i] + 1;		
+			daysWeather[i] = daysWeather[i] + 1;
 		}
 	}
 }
