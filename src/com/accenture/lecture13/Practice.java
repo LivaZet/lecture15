@@ -11,15 +11,14 @@ public class Practice {
 
 		}
 
-		// Task 0 - move "Hello world" output into method sayHi() and call it
-		// twice
-		// You should get printed out into console:
+		// Task 0 - move "Hello world" output into a method sayHi() and call it twice
+		// You should get the following printed out into the console:
 		// Hello world
 		// Hello world
 		sayHi();
 		sayHi();
 
-		// Task 1 - print out into console content of myArray, as following
+		// Task 1 - print out the content of myArray into the console as follows
 		// 0 element is 0
 		// 1 element is 2
 		// 2 element is 4
@@ -35,7 +34,7 @@ public class Practice {
 			System.out.println("" + i + " element is " + myArrays[i]);
 		}
 
-		// Task 1.1 - printArray() should do the same logic as above code
+		// Task 1.1 - printArray() should do the same logic as the above code
 		// 0 element is 0
 		// 1 element is 2
 		// ...
@@ -43,31 +42,27 @@ public class Practice {
 
 		printArray(myArrays);
 
-		// Task 2 - getSum() should return sum of all elements of passed array
-		// You should get printed out into console: Sum is 90
+		// Task 2 - getSum() should return the sum of all elements of a passed array
+		// You should get the following : "Sum is 90 " printed out into the console
 		int sum = getSum(myArrays);
 		System.out.println("Sum is " + sum);
 
-		// Task 3 - getAvarege() should return average of all elements of passed
-		// array
-		// Here you should get printed out into console: Average is 9
+		// Task 3 - getAvarege() should return the average of all the elements of a passed array
+		// You should get "Average is 9" printed out into the console
 		int average = getAverage(myArrays);
 		System.out.println("Average is " + average);
 
-		// Task 3.1 - declare method getMaxValue(), it should return biggest
-		// element value of array
-		// You should get printed out into console: Maximum is 18.0
+		// Task 3.1 - declare a method getMaxValue(), it should return the biggest element value of an array
+		// You should get "Maximum is 18.0" printed out into the console
 		int max = getMaxValue(myArrays);
 		System.out.println("Maximum is " + max);
 
-		// Task 3.2 - declare method getAvaregeDouble(), it should return sum of
-		// all elements of passed array
-		// You should get printed out into console: Average is 9.0
+		// Task 3.2 - declare a method getAvaregeDouble(), it should return the sum of all the elements of a passed array
+		// You should get "Average is 9.0" printed out into the console
 		double doubleAverage = getAverageDouble(myArrays);
 		System.out.println("Avarege double value is " + doubleAverage);
 
-		// Task 4 - getArrayDefinedByUser() - should ask user to fill array of 3
-		// elements and return that array
+		// Task 4 - getArrayDefinedByUser() - it should ask the user to fill an array of 3 elements and return that array
 		// Possible console content:
 		// Enter 3thy:
 		// 3
@@ -79,11 +74,10 @@ public class Practice {
 		int[] myIntegers = getArrayDefinedByUser(3);
 		printArray(myIntegers);
 
-		// Task 6 - make sure getAvarege() and getAvaregeDouble() methods uses
-		// getSum() method
-		// their shouldn't have duplicated logic with sum() method
+		// Task 6 - make sure getAvarege() and getAvaregeDouble() methods use a getSum() method
+		// they shouldn't duplicate logic with sum() method
 
-		// Task 7 - rewrite printArray() to use enhanced loop
+		// Task 7 - rewrite the printArray() to use enhanced loop
 
 		// Task 8 - create your own method, which
 		// - at first, will ask user how big array he wants to create *you will
