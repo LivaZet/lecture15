@@ -42,6 +42,8 @@ public class ObjectPractice {
 		// Output:
 		// "Weather forecast in 'Latvia' for next days '-2, 0, 5, 2, 6, -1, 0'"
 		 System.out.println(latvia);
+		 System.out.println(turkey);
+		 System.out.println(norway);
 
 		// Send a link of your github repository to lecturer in slack
 		// Wait until everyone will reach that point eiter ask for extra task

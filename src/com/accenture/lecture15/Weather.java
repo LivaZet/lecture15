@@ -3,7 +3,7 @@ package com.accenture.lecture15;
 import java.util.Arrays;
 
 public class Weather {
-	final String country;
+	private final String country;
 	private int[] daysWeather;
 	
 	public String getCountry() {
