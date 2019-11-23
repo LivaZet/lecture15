@@ -127,4 +127,9 @@ public class Weather {
 			daysWeather[i] = daysWeather[i] + 1;
 		}
 	}
+	
+	public static double celsiusToFahrenheit(double celsiusTemperature) {
+		double fahrenheitTemperature = (celsiusTemperature * 1.8) + 32;
+		return fahrenheitTemperature;
+	}
 }

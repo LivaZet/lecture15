@@ -90,7 +90,7 @@ public class ObjectPractice {
 		// Task 14 - I want to be able to convert Celsius temperature into Fahrenheit
 		// create a static method in Weather class: public static double celsiusToFahrenheit(double celsiusTemperature)
 		// Output: 10 in Celsius will be 50 in Fahrenheit
-		// System.out.println("10 in Celsius will be "+ Weather.celsiusToFahrenheit(10) +" in Fahrenheit");           
+		 System.out.println("10 in Celsius will be "+ Weather.celsiusToFahrenheit(10) + " in Fahrenheit");           
 
 		// Task 15 - We need that some one would provide to us weather forecast for specific country
 		// - create a static method which will create a 7 day forecast for specific country
