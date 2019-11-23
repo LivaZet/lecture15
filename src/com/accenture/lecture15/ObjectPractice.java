@@ -32,7 +32,9 @@ public class ObjectPractice {
 		// Make fields private
 		// Create getters for them
 		// Output: Latvia [-2, 0, 5, 2, 6, -1, 0]
-		 System.out.println(latvia.getCountry() + " " +Arrays.toString(latvia.getDaysWeather()));
+		 System.out.println(latvia.getCountry() + " " + Arrays.toString(latvia.getDaysWeather()));
+		 System.out.println(turkey.getCountry() + " " + Arrays.toString(turkey.getDaysWeather()));
+		 System.out.println(norway.getCountry() + " " + Arrays.toString(norway.getDaysWeather()));
 
 		// Task 6 - User should be able to get weather information in
 		// user-friendly way

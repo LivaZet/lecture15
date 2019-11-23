@@ -20,7 +20,7 @@ public class Weather {
 		this.daysWeather = daysWeather;
 	}
 	public String toString(){
-		return "Weather forecast for " + country + " next days " + daysWeather.toString();
+		return "Weather forecast for " + country + " next days " + Arrays.toString(getDaysWeather());
 	}
 	
 }
